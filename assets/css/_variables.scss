@@ -1,0 +1,75 @@
+////////////////////////////////////////
+// Font Sizes
+////////////////////////////////////////
+$base_size : 16;
+/// 
+$size_2 : calc(calc(2 / $base_size) * 1rem);
+$size_4 : calc(calc(4 / $base_size) * 1rem);
+$size_6 : calc(calc(6 / $base_size) * 1rem);
+$size_8 : calc(calc(8 / $base_size) * 1rem);
+$size_10 : calc(calc(10 / $base_size) * 1rem);
+$size_12: calc(calc(12 / $base_size) * 1rem);
+$size_14 : calc(calc(14 / $base_size) * 1rem);
+$size_15 : calc(calc(15 / $base_size) * 1rem);
+$size_16 : calc(calc(16 / $base_size) * 1rem);
+$size_18 : calc(calc(18 / $base_size) * 1rem);
+$size_20 : calc(calc(20 / $base_size) * 1rem);
+$size_22 : calc(calc(22 / $base_size) * 1rem);
+$size_24 : calc(calc(24 / $base_size) * 1rem);
+$size_26 : calc(calc(26 / $base_size) * 1rem);
+$size_28 : calc(calc(28 / $base_size) * 1rem);
+$size_30 : calc(calc(30 / $base_size) * 1rem);
+$size_32 : calc(calc(32 / $base_size) * 1rem);
+$size_34 : calc(calc(34 / $base_size) * 1rem);
+$size_36 : calc(calc(36 / $base_size) * 1rem);
+$size_38 : calc(calc(38 / $base_size) * 1rem);
+$size_40 : calc(calc(40 / $base_size) * 1rem);
+$size_42 : calc(calc(42 / $base_size) * 1rem);
+$size_44 : calc(calc(44 / $base_size) * 1rem);
+$size_46 : calc(calc(46 / $base_size) * 1rem);
+$size_48 : calc(calc(48 / $base_size) * 1rem);
+$size_50 : calc(calc(50 / $base_size) * 1rem);
+$size_52 : calc(calc(52 / $base_size) * 1rem);
+$size_54 : calc(calc(54 / $base_size) * 1rem);
+$size_55 : calc(calc(55 / $base_size) * 1rem);
+$size_56 : calc(calc(56 / $base_size) * 1rem);
+$size_58 : calc(calc(58 / $base_size) * 1rem);
+$size_60 : calc(calc(60 / $base_size) * 1rem);
+$size_65 : calc(calc(65 / $base_size) * 1rem);
+$size_68 : calc(calc(68 / $base_size) * 1rem);
+$size_80 : calc(calc(80 / $base_size) * 1rem);
+$size_90 : calc(calc(90 / $base_size) * 1rem);
+$size_95 : calc(calc(95 / $base_size) * 1rem);
+
+
+////////////////////////////////////////
+// Weigths
+////////////////////////////////////////
+$weight_thin: 100;
+$weight_light: 300;
+$weight_regular: 400;
+$weight_medium: 500;
+$weight_semibold: 600;
+$weight_bold: 700;
+$weight_extrabold: 800;
+$weight_black: 900;
+
+
+////////////////////////////////////////
+// Colors
+$color_black: #000000 !default;
+$color_dark: #333333 !default;
+$color_border: #d9d9d9 !default;
+$color_light: #f9f9f9 !default;
+$color_white: #FFFFFF !default;
+$color_placeholder: #00000084 !default;
+
+//!SPECIAL COLORS
+
+$color_main_regular: #095127 !default;
+$color_main_light: lighten($color_main_regular, 10%) !default;
+$color_main_dark: darken($color_main_regular, 10%) !default;
+
+$color_secondary_regular: #C91E24 !default;
+$color_secondary_light: lighten($color_secondary_regular, 10%) !default;
+$color_secondary_dark: darken($color_secondary_regular, 10%) !default;
